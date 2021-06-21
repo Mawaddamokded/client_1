@@ -1,0 +1,413 @@
+/**
+* 
+* -----------------------------------------------------------------------------
+*
+*   Template : EMediacl - Responsive Landing HTML5 Template
+*   Author : thecodude
+*   Author URI : http://thecodude.com/ 
+*
+* -----------------------------------------------------------------------------
+*
+**/
+
+@media only screen and (max-width: 1440px){
+    .tcd-header-1 .logo {
+        left: -0;
+    }
+    .tcd-header-1 .mainmenu {
+        padding-right: 0;
+        padding-left: 100px;
+    }
+    .tcd-header-1 .mainmenu .contact-menu {
+        right: 50px;
+    }
+    .tcd-header-1 .search {
+        right: 0;
+    }
+    .tcd-header-1 .mainmenu .nav-menu li {
+        margin-right: 45px;
+    }
+    .tcd-banner {
+        min-height: 400px;
+    }
+    .tcd-banner .banner-wrapper .banner-content {
+        padding-top: 100px;
+    }
+    .tcd-banner .banner-wrapper .banner-content .banner-newsletter {
+        margin-top: 70px;
+    }
+    .tcd-services .single-services.left-gap {
+        margin-left: 120px;
+    }
+    .shape-img img {
+        width: 80%;
+    }
+    .tcd-footer-newsletter .newsletter-img {
+        width: 100%;
+        max-height: 500px;
+    }    
+}
+
+@media only screen and (max-width: 1199px){
+    .tcd-header-1 .mainmenu .nav-menu li {
+        margin-right: 25px;
+    }
+    .tcd-banner {
+        min-height: 400px;
+    }
+
+    .tcd-about .about-text {
+        margin-left: 50px;
+    }
+    
+    .tcd-services-tab .tcd-nav-tabs li a {
+        font-size: 25px;
+        padding: 30px 0;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .canvas-menu-area {
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: none;
+    }    
+}
+
+@media only screen and (max-width: 991px) {
+    .order-last {
+        order: unset;
+    }
+    .hidden-md {
+        display: none !important;
+    }
+    .md-pl-0 {
+        padding-left: 0;
+    }
+    .md-pr-0 {
+        padding-right: 0;
+    }
+    .md-pt-100 {
+        padding-top: 100px;
+    }
+    .md-pt-95 {
+        padding-top: 95px;
+    }
+    .md-pt-70 {
+        padding-top: 70px;
+    }
+    .md-pt-60 {
+        padding-top: 60px;
+    }
+    .md-pt-35 {
+        padding-top: 35px;
+    }
+    .md-pt-20 {
+        padding-top: 20px;
+    }
+    .md-pb-100 {
+        padding-bottom: 100px;
+    }
+    .md-pb-80 {
+        padding-bottom: 80px;
+    }
+    .md-pb-70 {
+        padding-bottom: 70px;
+    }
+    .md-pb-60 {
+        padding-bottom: 60px;
+    }
+    .md-pb-50 {
+        padding-bottom: 50px;
+    }
+    .md-mt-80 {
+        margin-bottom: 80px;
+    }
+    .md-mb-20 {
+        margin-bottom: 20px;
+    }
+    .md-mb-30 {
+        margin-bottom: 30px;
+    }
+    .md-mb-50 {
+        margin-bottom: 50px;
+    }
+    .md-set-padding {
+        padding: 0 15px !important;
+    }
+    .section-gap {
+        padding: 50px 0;
+    }
+    .sec-title .title,
+    .tcd-newsletter .title,
+    .tcd-time-table .timing-title {
+        font-size: 30px;
+    }
+    .sec-title .subtitle,
+    .tcd-newsletter .subtitle,
+    .tcd-time-table .subtitle {
+        font-size: 15px;
+    }
+
+    
+    /*Menu Part Start*/
+    .tcd-header-1 .menu-sticky.sticky {
+        position: unset;
+    }
+    .tcd-header-1 .menu-bg-part {
+        height: 70px;
+    }
+    .tcd-header-1 .logo {
+        left: 0;
+        top: 20px;
+        transform: unset;
+        max-width: 150px;
+        height: unset;
+        line-height: unset;
+    } 
+    .tcd-header-1 .logo .fav {
+        max-width: 35px;
+    }
+    .tcd-header-1 .logo a {
+        font-size: 20px;
+    }
+    .tcd-header-1 .mainmenu {
+        display: none;
+        background: #602fff;
+        top: 40px;
+        padding: 20px;
+        text-align: left;
+        padding-right: 0;
+        box-shadow: 0 5px 15px rgba(0,0,0,.075);
+    }
+    .tcd-header-1 .mainmenu .nav-menu li {
+        display: block;
+        margin-right: 0;
+    }
+    .tcd-header-1 .mainmenu .nav-menu li a {
+        color: #fff;
+        line-height: 50px;
+    }
+    .tcd-header-1 .mainmenu .nav-menu li a:before {
+        color: #fff;
+    }
+    /*Menu Part End*/
+    .tcd-services {
+        margin: 180px 0 85px;
+    }
+    .tcd-services .single-services.left-gap {
+        margin-left: 0;
+    }   
+    .tcd-services .single-services .services-text .title {
+        font-size: 25px;
+    }
+    .tcd-about .about-text {
+        margin-left: 25px;
+    }
+    .tcd-about .shape-img {
+        top: unset;
+        bottom: 0;
+    }
+    .tcd-services-tab .tcd-nav-tabs li {
+        width: 100%;
+        border-bottom: 1px solid #ddd;
+    }
+    .tcd-services-tab .tcd-nav-tabs li:last-child {
+        border-bottom: none;
+    }
+    .tcd-services-tab .service-content{
+        padding: 50px 0 0;
+    }
+    .tcd-testimonial {
+        padding: 70px 0 110px;
+    }
+    .tcd-testimonial .owl-carousel .owl-dots {
+        bottom: 70px;
+    }
+    .tcd-testimonial .owl-carousel .owl-stage-outer {
+        padding: 0;
+        margin: 0;
+    }
+    .tcd-newsletter {
+        padding: 60px 0 70px;
+    }
+    .tcd-contact .tcd-nav-part .nav-title-text {
+        font-size: 15px;
+    }
+    .tcd-time-table  {
+        padding: 60px 30px 70px;
+    }
+    .tcd-footer .footer-widget .footer-schedule .appointment {
+        max-width: 300px;
+    }
+    .tcd-footer .footer-widget .footer-schedule .appointment li {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .sm-mb-20 {
+        margin-bottom: 20px;
+    }
+    .sm-mb-30 {
+        margin-bottom: 30px;
+    }
+    .sm-mb-50 {
+        margin-bottom: 50px;
+    }
+    .tcd-banner .banner-wrapper .banner-content {
+        max-width: 450px;
+        padding: 100px 30px 70px;
+    }
+    .tcd-banner .banner-wrapper .banner-content .banner-subtitle,
+    .tcd-banner .banner-wrapper .banner-content .banner-desc {
+        font-size: 18px;
+    }
+    .tcd-banner .banner-wrapper .banner-content .banner-title {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    .tcd-banner .banner-wrapper .banner-content .banner-newsletter form {
+        max-width: 400px;
+    }
+    .breadcrumbs-image img {
+        min-height: 400px;
+    }
+    .breadcrumbs-image .breadcrumbs-inner .breadcrumbs-text .breadcrumbs-title {
+        font-size: 35px;
+    }
+    .tcd-services {
+        margin-bottom: 65px;
+    }
+    .tcd-services .single-services {
+        display: block;
+    }
+    .tcd-services .single-services .services-icon {
+        left: 15px;
+        margin-bottom: 35px;
+    }
+    .tcd-services .single-services .services-text {
+        margin-left: 0;
+    }
+    .sec-title .desc br,
+    .tcd-services .single-services .services-text .desc br {
+        display: none;
+    }
+    .tcd-about .shape-img {
+        right: 0;
+    }
+    .tcd-services-tab .service-categories .subtitle {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .tcd-services-tab .service-categories .title {
+        font-size: 35px;
+    }
+    .tcd-testimonial .testi-slider .testi-item .testi-img {
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+    }
+    .tcd-blog .blog-item .blog-content {
+        position: unset;
+        transform: unset;
+    }
+    .tcd-contact .tcd-nav-part .nav-title-text {
+        display: none;
+    }
+    .tcd-time-table .table-part {
+        overflow-y: hidden;        
+    }
+    .tcd-time-table .table-part .single-time {
+        min-width: 400px;
+    }
+    .tcd-newsletter .newsletter-part form {
+        max-width: 400px;
+    }
+}
+
+@media only screen and (max-width: 575px){
+    .xs-mb-30 {
+        margin-bottom: 30px;
+    }
+    .xs-mt-0 {
+        margin-top: 0;
+    }
+    .sec-title .title,
+    .tcd-newsletter .title,
+    .tcd-time-table .timing-title {
+        font-size: 25px;
+    }
+    .sec-title.left-shape {
+        padding: 0 0 0 25px;
+    }
+    .breadcrumbs-image .breadcrumbs-inner .breadcrumbs-text .breadcrumbs-title {
+        font-size: 30px;
+    }
+    .tcd-about .shape-img {
+        display: none;
+    }
+    .tcd-contact .tcd-nav-part .tcd-nav-tabs li a {
+        padding: 10px 30px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .primary-btn {
+        font-size: 13px;
+    }
+    .video-play-button:before, 
+    .video-play-button:after {
+        height: 70px;
+        width: 70px;
+    }
+    .tcd-banner .banner-wrapper .banner-content {
+        bottom: 0;
+        padding: 50px 15px 50px;
+    }
+    .tcd-banner .banner-wrapper .banner-content .banner-subtitle, 
+    .tcd-banner .banner-wrapper .banner-content .banner-desc {
+        margin: 0;
+    }
+    .tcd-banner .banner-wrapper .banner-content .banner-title {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    .tcd-banner .banner-wrapper .banner-content .banner-newsletter {
+        margin-top: 50px;
+    }
+    .tcd-banner .banner-wrapper .banner-content .banner-newsletter form {
+        width: 100%;
+    }
+    .tcd-banner .banner-wrapper .banner-content .banner-newsletter input[type="email"] {
+        padding-left: 15px;
+        padding-right: 100px;
+        font-size: 13px;
+        height: 50px;
+    }
+    .tcd-banner .banner-wrapper .banner-content .banner-newsletter .btn-newsletter {
+        right: 15px;
+        width: 75px;
+        top: 10px;
+        height: 30px;
+        line-height: 28px;
+    }
+    .tcd-services {
+        margin-top: 70px;
+    }
+
+    .tcd-newsletter .newsletter-part form {
+        max-width: 300px;
+    }
+    .tcd-newsletter .newsletter-part input[type="email"] {
+        padding-left: 20px;
+        padding-right: 75px;
+    }
+    .tcd-blog .blog-item .blog-content {
+        width: 300px;
+        padding: 30px 20px 20px;
+    }
+}
+
+

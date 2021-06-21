@@ -1,0 +1,225 @@
+
+ @import url(https://fonts.googleapis.com/css?family=Roboto:900,300);
+ /* body {
+   background-color: #f0f0f0;
+   font-family: roboto;
+ } */
+ 
+ .boxdetail {
+  width: 1000px;
+  margin: 120px auto 120px;
+  background-color: #fff;
+  padding: 0 20px 20px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.075);
+  -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.075);
+  -moz-box-shadow: 0 2px 5px rgba(0,0,0,0.075);
+  text-align: center;
+ }
+ .boxdetail:hover .avatar-flip {
+   transform: rotateY(180deg);
+   -webkit-transform: rotateY(180deg);
+ }
+ .boxdetail:hover .avatar-flip img:first-child {
+   opacity: 0px;
+ }
+ .boxdetail:hover .avatar-flip img:last-child {
+   opacity: 1px;
+ }
+ .avatar-flip {
+   border-radius: 100px;
+   overflow:hidden;
+   height: 150px;
+   width: 150px;
+   position: relative;
+   margin: auto;
+   top: -100px;
+   transition: all 0.3s ease-in-out;
+   -webkit-transition: all 0.3s ease-in-out;
+   -moz-transition: all 0.3s ease-in-out;
+   box-shadow: 0 0 0 13px #f0f0f0;
+   -webkit-box-shadow: 0 0 0 5px #f0f0f0;
+   -moz-box-shadow: 0 0 0 5px #f0f0f0;
+ }
+ .avatar-flip img {
+   position: absolute;
+   left: 0;
+   top: 0;
+   border-radius: 100px;
+   transition: all 0.3s ease-in-out;
+   -webkit-transition: all 0.3s ease-in-out;
+   -moz-transition: all 0.3s ease-in-out; 
+ }
+ .avatar-flip img:first-child {
+   z-index: 1;
+ }
+ .avatar-flip img:last-child {
+   z-index: 0;
+   transform: rotateY(180deg);
+   -webkit-transform: rotateY(180deg);
+   opacity: 0;
+ }
+ .detail {
+   
+   padding: 50px 30px 40px;
+   text-align: center;
+   transition: all 0.5s ease 0s;
+   border-radius: 50px;
+   border: 2px solid #cacccc;
+   box-shadow: 0px 5px 25px 0px rgba(102, 54, 255, 0.1);
+ 
+ }
+ 
+ .social-inf {
+   padding-top: 25;
+ }
+  .social-inf li {
+   display: inline-block;
+   margin-right: 11;
+ }
+ .social-inf li a {
+   color: #000000;
+   opacity: 0.50;
+ }
+ .social-inf li a i {
+   font-size:20;
+ }
+  .social-inf li a:hover {
+   color: #602fff;
+   opacity: 2;
+ }
+ 
+ .socialm{
+   padding-top: 5px;
+   font-size: 10px;
+ }
+ .socialm li{
+   display: inline-block;
+   margin-right: 10px;
+ }
+ .socialm li a {
+   color: #000000;
+   opacity: 0.50;
+ }
+ .socialm li a i {
+   font-size: 16px;
+ }
+ .socialm li a:hover {
+   color: #602fff;
+   opacity: 1;
+ }
+ 
+ .days{
+   color: rgb(62, 92, 92);
+   border-radius: 10px;
+   border: 2px solid #cacccc;
+   padding: 10px 35px;
+ }
+ .time{
+   color: rgb(62, 92, 92);
+   border-radius: 10px;
+   border: 2px solid #cacccc;
+   padding: 5px 40px;
+   margin-top: 5px;
+   margin-bottom: 5px;
+ }
+ .timebox{
+   width: 1000px;
+   margin: 120px auto 120px;
+   background-color: #fff;
+   padding: 0 20px 20px;
+   border-radius: 6px;
+   
+ }
+ .calendar {
+   box-sizing: border-box;
+   font-size: 1rem;
+   max-width: 400px;
+ }
+ 
+ .calendar .header {
+   background-color: var(--light-blue);
+   text-align: center;
+   min-height: 2rem;
+   line-height: 2rem;
+   color: var(--black);
+   font-family: var(--font-book);
+   font-weight: 700;
+   display: flex;
+ }
+ 
+ .calendar .day-names {
+   
+   display: flex;
+   flex-wrap: wrap;
+   max-width: 1000px;
+   margin: 0 auto;
+   align-items: center;
+ }
+ 
+ .calendar .body {
+   border: 1px solid var(--light-blue);
+ }
+ 
+ .calendar .header .previous {
+   flex: 1;
+   text-align: left;
+   margin-left: 1rem;
+ }
+ 
+ .calendar .header .next {
+   flex: 1;
+   text-align: right;
+   margin-right: 1rem;
+ }
+ 
+ .calendar .week {
+   background-color: white;
+   width: calc(100% / 7);
+   height: 44px;
+   line-height: 44px;
+   text-align: center;
+   text-transform: uppercase;
+   color: var(--black);
+   font-weight: 400;
+ }
+ .calendar .week div {
+   width: 100%;
+ }
+ 
+ .calendar .day {
+   
+   width: calc(100% / 7);
+   display: inline-block;
+   background-color: white;
+   padding: 0;
+ 
+   box-sizing: border-box;
+   z-index: 1;
+   text-align: center;
+ }
+ 
+ .calendar .day div {
+   width: 54px;
+   height: 44px;
+   position: relative;
+   color: var(--black);
+   z-index: 100;
+   line-height: 44px;
+ }
+ 
+ .calendar .day div.before {
+   color: var(--grey);
+ }
+ 
+ .calendar .day div.selected {
+   background-color: var(--red);
+   color: var(--white);
+   font-weight: bold;
+ }
+ 
+ .calendar .day div.today {
+   background-color: var(--grey);
+ }
