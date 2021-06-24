@@ -61,26 +61,17 @@ class Search extends Component {
 
   render() {
     const { specialite } = this.state;
-    const { ville } = this.state;
-    let specialiteList =
-      specialite.length > 0 &&
-      specialite.map((item, i) => {
+    let specialiteList = specialite.length > 0 && specialite.map((item, i) => {
         return (
-          <option key={i} value={item.id}>
-            {item.nom_spec}
-          </option>
-        );
-      }, this);
+          <option key={i} value={item.id}> {item.nom_spec} </option>
+        ); }, this);
 
-    let villeList =
-      ville.length > 0 &&
-      ville.map((item, i) => {
+ const { ville } = this.state;
+ let villeList = ville.length > 0 && ville.map((item, i) => {
         return (
-          <option key={i} value={item.id}>
-            {item.nom_ville}
-          </option>
-        );
-      }, this);
+          <option key={i} value={item.id}>{item.nom_ville}</option>
+           ) }, this);
+
 
     return (
      <div>
