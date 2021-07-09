@@ -7,7 +7,7 @@ function Doctor({ docteur }) {
       className="card single-team mt-5"
       style={{ width: "18rem", height: "35rem" }}
     >
-      <Link to={`/docteur/${docteur.id_docteur}`}>
+      <Link to={`/doctors/${docteur.id_docteur}`}>
         <div className="team-img">
           <img src={docteur.photo} alt="Team " />
 
@@ -24,7 +24,7 @@ function Doctor({ docteur }) {
           {docteur.description.length > MAX_LENGTH ? (
             <div>
               {`${docteur.description.substring(0, MAX_LENGTH)}...`}{" "}
-              <Link to={`/docteur/${docteur.id_docteur}`}>Lire la suite</Link>
+              <Link to={`/doctors/${docteur.id_docteur}`}>Lire la suite</Link>
             </div>
           ) : (
             <p>{docteur.description}</p>

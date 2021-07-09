@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
 import { Container } from "reactstrap";
-import DoctorList from "../team/DoctorList"
-/*  import Api from "../../pages/Api";  */
+import DoctorList from "../team/DoctorList";
 class Search extends Component {
   constructor(props) {
     super(props);

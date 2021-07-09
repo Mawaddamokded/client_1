@@ -8,6 +8,8 @@ import axios from "axios";
 import { Spinner } from "reactstrap";
 import Header from "../components/header/Header";
 import Services from "../components/services/Services";
+import Grendezvous from "./appointment/Grendezvous";
+
 
 const Routers = () => {
   const [docteur, setDocteur] = useState({});
@@ -29,10 +31,10 @@ const Routers = () => {
       <Router>
         <Header />
         <Route path="/" component={Home} exact />
-        <Route path="/Inscription" component={Inscription} />
-        <Route path="/docteur/:id_docteur" render={(props) => <DoctorDetails {...props} docteur={docteur} />}  /> 
-
+        <Route path="/Inscription/patient" component={Inscription} />
+        <Route path="/doctors/:id_docteur" render={(props) => <DoctorDetails {...props} docteur={docteur} />}  /> 
         <Route path="/inscrit/docteur" component={DocSubscribe} />
+        <Route path="/rendez-vous/:id_rdv" component={Grendezvous} />
         <Services />
       </Router>
     </div>

@@ -34,7 +34,7 @@ function Header() {
 
 									<li><a href="#tcd-team">Team</a></li>
 
-									<li><Link to="/Inscription" >Connecter</Link></li>
+									<li><Link to="/Inscription/patient" >Connecter</Link></li>
 
 									<li><a href="#tcd-footer">Contact</a></li>
 								</ul>

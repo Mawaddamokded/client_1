@@ -47,6 +47,9 @@
    position: absolute;
    left: 0;
    top: 0;
+   width:  150px;
+   height: 150px;
+   object-fit: cover;
    border-radius: 100px;
    transition: all 0.3s ease-in-out;
    -webkit-transition: all 0.3s ease-in-out;
@@ -56,9 +59,6 @@
    z-index: 1;
  }
  .avatar-flip img:last-child {
-   z-index: 0;
-   transform: rotateY(180deg);
-   -webkit-transform: rotateY(180deg);
    opacity: 0;
  }
  .detail {
@@ -223,3 +223,25 @@
  .calendar .day div.today {
    background-color: var(--grey);
  }
+ .responsive-calendar {
+  /* by setting font-size, all the elements will correspond */
+  font-size: 9px !important; /* default to 10px */
+}
+
+@media (max-width: 1500px) {
+  .responsive-calendar {
+    font-size: 8px !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .responsive-calendar {
+    font-size: 7px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .responsive-calendar {
+    font-size: 6px !important;
+  }
+}

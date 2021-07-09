@@ -112,7 +112,7 @@ function Form() {
             <div className="overlay1-panel overlay1-right">
               <h1>Salut!</h1>
               <p>Entrez vos informations personnelles </p>
-              <button className="button1 ghost" id="signUp" onClick={() => handelClick() + colorchange(1)}>S'inscrire</button>
+              <button className="button1 ghost" id="signUp" href="#0" onClick={() => handelClick() + colorchange(1)}>S'inscrire</button>
             </div>
           </div>
         </div>
